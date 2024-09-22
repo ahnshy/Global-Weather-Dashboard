@@ -75,6 +75,10 @@
   }
 }
 
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
 body::-webkit-scrollbar {
   width: 6px;
 }
