@@ -36,7 +36,7 @@ function AirPollution() {
         {thermo}미세먼지
       </h2>
       <Progress value={airQualityIndex} max={100} className="progress" />
-      <p className="text-sm">Air quality is {filteredIndex?.description}</p>
+      <p className="text-sm">{filteredIndex?.description}</p>
     </div>
   );
 }
