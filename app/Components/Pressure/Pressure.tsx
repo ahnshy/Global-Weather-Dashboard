@@ -17,17 +17,17 @@ function Pressure() {
     if (pressure < 1000) return "Very low pressure";
 
     if (pressure >= 1000 && pressure < 1015)
-      return "Low pressure. Expect weather changes.";
+      return "저기압";
 
     if (pressure >= 1015 && pressure < 1025)
-      return "Normal pressure. Expect weather changes.";
+      return "보통";
 
     if (pressure >= 1025 && pressure < 1040)
-      return "High pressure. Expect weather changes.";
+      return "고기압";
 
-    if (pressure >= 1040) return "Very high pressure. Expect weather changes.";
+    if (pressure >= 1040) return "초고기압";
 
-    return "Unavailable pressure data";
+    return "정보없음 - 서비스 이용불가";
   };
 
   return (
@@ -39,7 +39,7 @@ function Pressure() {
         <p className="pt-4 text-2xl">{pressure} hPa</p>
       </div>
 
-      <p className="text-sm">{getPressureDescription(pressure)}.</p>
+      <p className="text-sm">{getPressureDescription(pressure)}</p>
     </div>
   );
 }
