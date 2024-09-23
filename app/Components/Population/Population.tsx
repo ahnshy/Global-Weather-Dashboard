@@ -17,11 +17,11 @@ function Population() {
     <div className="pt-6 pb-5 px-4 h-[12rem] border rounded-lg flex flex-col gap-8 dark:bg-dark-grey shadow-sm dark:shadow-none">
       <div className="top">
         <h2 className="flex items-center gap-2 font-medium">
-          {people} Population
+          {people} 인구지수
         </h2>
         <p className="pt-4 text-2xl">{formatNumber(city.population)}</p>
       </div>
-      <p className="text-sm">Latest UN population data for {city.name}.</p>
+      <p className="text-sm">UN에서 제공되는 {city.name} 인구증가 </p>
     </div>
   );
 }
