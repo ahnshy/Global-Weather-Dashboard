@@ -78,15 +78,15 @@ export default function Home() {
 
       <footer className="py-4 flex justify-center pb-8">
         <p className="footer-text text-sm flex items-center gap-1">
-          Powered by           <a
+          Powered by&nbsp;
+          <img src="https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png" alt="logo" width={60} height={50} /><a
             href="https://openweathermap.org/"
             target="_blank"
-            className=" text-red-300 font-bold">
-          <img src="https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png" alt="logo" width={50} height={40} /> OpenWeathermap.org clone by </a>
+            className=" text-red-300 font-bold">&nbsp;OpenWeathermap.org&nbsp;</a>
           <a
-              href="https://ahnshy.github.io/"
-              target="_blank"
-              className=" text-sky-300 font-bold"> ahnshy </a>
+            href="https://ahnshy.github.io/"
+            target="_blank"
+            className=" text-sky-300 font-bold">&nbsp;clone by ahnshy</a>
         </p>
       </footer>
     </main>
