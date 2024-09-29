@@ -5,15 +5,6 @@
 
 ## 📢 [Overview]
 - It provides information such as time, temperature, wind temperature, wind temperature, humidity, wind direction, sunrise, sunset, UV index, fine dust, visible distance, atmospheric pressure, and map (Google Map) around the world, which are linked to the OpenWeathermap API.
-<br/>
-
-## 🙏 Special Thanks
-- Powered by Open Weather Map API [https://openweathermap.org/api] <br/>
-<img src="https://github.com/user-attachments/assets/9cbeb288-559d-4334-a3f5-3391a6ad8f3f" width=100 height=40 /> <br/>
- <br/>
-- Powered by Google Map API [https://developers.google.com/maps/get-started] <br/>
-
-
 <br/><br/>
 
 ## 🛠️ Stacks
@@ -34,39 +25,63 @@
 - **Vercel**: Vercel Inc. (formerly ZEIT) is an American cloud platform as a services company. The company maintains the Next.js web development framework.
 <br/>
 
+## 🙏 Special Thanks
+- Powered by Open Weather Map API [https://openweathermap.org/api] <br/>
+- Powered by Google Map API [https://developers.google.com/maps/get-started] <br/>
+<img src="https://github.com/user-attachments/assets/9cbeb288-559d-4334-a3f5-3391a6ad8f3f" width=100 height=40 /> <img src="https://github.com/user-attachments/assets/8e51300c-c827-4ac0-98ee-c5eda5373bc4" width=100 height=40 />
+<br/>
+
 ## ⚙️ [Instructions]
 
-[Register Window Service]
+### 1.Install dependencies
+You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
 ```bash
-  sc create "Git Log service" binPath= "C:\Program Files (x86)\GitLogService\GitLogService.exe"
+npm install
 ```
+<br/>
 
-[Remove Window Service]
+### 2.Use the nextjs-app
+
 ```bash
-  NET STOP "Git Log service"
-  sc delete "Git Log service"
+npm run dev
+or
+next dev --turbo
 ```
+<br/>
 
-[Run]
+### 3.Run the development server
+
 ```bash
-  NET START "Git Log service"
+npm run build
+or
+next build
 ```
 <br/>
 
 ## 📌 [Advanced Features]
-*
+* It searches cities around the world and provides weather information. <br/>
+* It provides a variety of weather information.(time, temperature, wind temperature, wind temperature, humidity, wind direction, sunrise, sunset, UV index, fine dust, visible distance, atmospheric pressure)
+* Currently, we only support Hangul, but we will support i18N in the future.
+* It supports cross-browser and RWD(Responsive Web Design).
+* It supports dark mode and white mode.
 <br/>
 
-## 💻 [Preview and Demo]
+## 💻 [Demo and Preview]
 >
-> [Notice]
->The service is being implemented. 
-> <br/>
-> Once completed, we will demonstrate the demo by capturing the screen.<br/>
->
->
+> [Live Demo] <br/>
+> https://weather-dashboard-nine-steel.vercel.app/ <br/><br/><br/>
+> [Desktop Chrome] <br/>
+> The map is being implemented. <br/>
+> ![image](https://github.com/user-attachments/assets/03ea259e-36cb-44d8-ad7b-1894dad51e13) <br/><br/>
+> [Mobile iPhone15 Pro Safari] <br/>
+> ![image](https://github.com/user-attachments/assets/bf190269-6919-4940-9c0f-0e1891315dde) <br/>
+> ![image](https://github.com/user-attachments/assets/7fa8bcd6-1ebf-4eaa-98c3-ff88f29c1dd2) <br/>
+> ![image](https://github.com/user-attachments/assets/58a81d7a-fe35-4331-a983-3f73aecf20db) <br/>
+> ![image](https://github.com/user-attachments/assets/cbd544e4-55d3-4e02-90a0-9fa03c2cd4d8) <br/>
 >
 
+## 🔑 [License]
+Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
 
 <br/>
 <br/>
