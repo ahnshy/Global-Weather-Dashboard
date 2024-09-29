@@ -41,7 +41,7 @@ npm install
 <br/>
 
 ### 2.Use the nextjs-app
-
+"-- turbo" option is available for Next.js v14 and later.
 ```bash
 npm run dev
 or
