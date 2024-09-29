@@ -19,7 +19,7 @@
 ## 🛠️ [Technologies]
 - **Next.js**: Next.js is an open-source web development framework built on Node.js that enables react-based web application functions such as server-side rendering and static web page creation.
 - **React.js**: React is used to create a user interface as part of the JavaScript library. It is maintained by Facebook and the community of individual developers and companies.
-- **Redis UI**: A highly functional and convenient database GUI that fits in your pocket, accessible on both responsive web and desktop applications.
+- **Radix UI**: Components, icons, and colors for building high‑quality, accessible UI. Free and open-source.
 - **Tailwind css**: Tailwind CSS is an open-source CSS framework.
 - **OpenWeatherMap**: This is an online service owned by OpenWeather Ltd that provides weather data from all over the world, including current weather data, forecasts, current broadcasting, and past weather data through the API.
 - **Vercel**: Vercel Inc. (formerly ZEIT) is an American cloud platform as a services company. The company maintains the Next.js web development framework.
