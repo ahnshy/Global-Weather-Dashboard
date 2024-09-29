@@ -67,9 +67,10 @@ next build
 <br/>
 
 ## 💻 [Demo and Preview]
+[Live Demo] <br/>
+https://weather-dashboard-nine-steel.vercel.app/ <br/><br/>
+
 >
-> [Live Demo] <br/>
-> https://weather-dashboard-nine-steel.vercel.app/ <br/><br/><br/>
 > [Desktop Chrome] <br/>
 > The map is being implemented. <br/>
 > ![image](https://github.com/user-attachments/assets/03ea259e-36cb-44d8-ad7b-1894dad51e13) <br/><br/>
